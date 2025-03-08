@@ -1,0 +1,22 @@
+{
+  "name": "do-not-use-cy-dot-xpath",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate the rule `no-xpath` from v4.2.0 of eslint-plugin-cypress.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "lint": "eslint .",
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "cypress": "^14.1.0",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "^9.22.0",
+    "eslint-plugin-cypress": "^4.2.0",
+    "globals": "^16.0.0"
+  }
+}

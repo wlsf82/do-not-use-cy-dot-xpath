@@ -1,0 +1,17 @@
+name: ci
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install modules
+        run: npm install
+      - name: Run ESLint
+        run: npm run lint
+  tests:
+    needs: lint
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Run tests 🧪
+        uses: cypress-io/github-action@v6
