@@ -18,7 +18,7 @@ Run `npm install` (or `npm i` for the short version) to install the dev dependen
 
 ## Lint
 
-Run `npm run lint` to run the eslint static checks.
+Run `npm run lint` to run the ESLint static checks.
 
 ### Lint results
 
