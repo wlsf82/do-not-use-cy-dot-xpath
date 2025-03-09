@@ -1,5 +1,7 @@
 # do-not-use-cy-dot-xpath
 
+[![CI](https://github.com/wlsf82/do-not-use-cy-dot-xpath/actions/workflows/ci.yml/badge.svg)](https://github.com/wlsf82/do-not-use-cy-dot-xpath/actions/workflows/ci.yml)
+
 Sample project to demonstrate the rule `no-xpath` from v4.2.0 of eslint-plugin-cypress.
 
 ```sh
