@@ -45,7 +45,7 @@ Or, run `npm run cy:open` to open the Cypress App and run the tests in interacti
 
 ### Test results
 
-After running the tests in headless mode, you should see a result like this:
+After running the tests in headless mode, you should see something like this:
 
 ```sh
 (Run Finished)
