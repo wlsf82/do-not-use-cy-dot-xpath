@@ -4,10 +4,13 @@ describe('Cypress Playground', () => {
     cy.visit('/index.html')
 
     // Act
-    cy.xpath('//*[@id="signature-textarea-with-checkbox"]').type('Walmyr')
-    cy.xpath('//*[@id="signature-checkbox"]').check()
+    cy.get('#signature-textarea-with-checkbox').type('Walmyr')
+    cy.get('#signature-checkbox').check()
 
     // Assert
-    cy.xpath('//*[@id="signature-triggered-by-check"]').should('be.visible')
+    cy.contains(
+      '#signature-triggered-by-check',
+      'Walmyr'
+    ).should('be.visible')
   })
 })
